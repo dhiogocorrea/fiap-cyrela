@@ -27,7 +27,6 @@ public class User {
 	private long userId;
 	private String name;
 	private String lastName;
-	private String companyName;
 	private String email;
 	
 	@JsonInclude(JsonInclude.Include.NON_NULL)
@@ -73,14 +72,6 @@ public class User {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
-	}
-	
-	public String getCompanyName() {
-		return companyName;
-	}
-
-	public void setCompanyName(String companyName) {
-		this.companyName = companyName;
 	}
 
 	public String getEmail() {

@@ -58,7 +58,6 @@ public class UserServiceImpl implements UserService {
 		User user = new User();
 		user.setName(userDto.getName());
 		user.setLastName(userDto.getLastName());
-		user.setCompanyName(userDto.getCompanyName());
 		user.setEmail(userDto.getEmail());
 		user.setStatus(Status.PENDING_VERIFICATION);
 		user.setPassword(passwordEncoder.encode(userDto.getPassword()));

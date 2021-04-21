@@ -6,7 +6,6 @@ public class UserDto {
 	
 	private String name;
 	private String lastName;
-	private String companyName;
 	private String email;
 	private String password;
 	private String confirmationPassword;
@@ -25,12 +24,6 @@ public class UserDto {
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
-	}
-	public String getCompanyName() {
-		return companyName;
-	}
-	public void setCompanyName(String companyName) {
-		this.companyName = companyName;
 	}
 
 	public String getEmail() {
